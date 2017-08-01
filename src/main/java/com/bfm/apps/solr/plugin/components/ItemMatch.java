@@ -2,6 +2,8 @@ package com.bfm.apps.solr.plugin.components;
 
 import java.io.IOException;
 import java.lang.ArrayIndexOutOfBoundsException;
+import java.nio.file.FileSystems;
+import java.nio.file.Paths;
 import java.io.File;
 import java.util.logging.Level;
 import java.util.List;
@@ -116,8 +118,8 @@ public class ItemMatch extends SearchComponent {
 						/////////// Now switch to your second query and query the Lucene Index //////////
 
 						// Load Indexer and setup new index searcher
-						File indexLocation = new File(defaultPath);
-						Directory index = FSDirectory.open(indexLocation);
+						String indexLocation = defaultPath;
+						Directory index = FSDirectory.open(Paths.get(indexLocation));
 						IndexReader reader = DirectoryReader.open(index);
 						IndexSearcher lsearcher = new IndexSearcher(reader);
 						Term t = new Term(field, secondQueryContent);

@@ -36,4 +36,4 @@ Add following section inside the /select requestHandler section.
   ```
 
 ### Notes
-Tested on Solr 4.1.0
+Tested on Solr 6.6.0
