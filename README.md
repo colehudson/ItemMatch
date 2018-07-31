@@ -6,7 +6,7 @@ Install Maven on your system.
 
 Clone this repository.
 
-Make sure your JAVA_HOME is set. NB: for instances of fedora-stack, that is usually JAVA_HOME=/usr/lib/jvm/java-8-oracle/
+Make sure your JAVA_HOME is set. NB: for instances of [fedora-stack](https://github.com/WSULib/fedora-stack), that is usually JAVA_HOME=/usr/lib/jvm/java-8-oracle/
 
 Go to root of the ItemMatch directory.
 
