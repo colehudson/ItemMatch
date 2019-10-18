@@ -1,6 +1,8 @@
 # ItemMatch
 Custom search component that discovers associated items for Solr documents given a specified field.
 
+## UPDATE: Unmaintained. This project was made for a very specific infrastructure. Use at your own risk!
+
 ## Installation Instructions
 Install Maven on your system.
 
